@@ -1,39 +1,61 @@
-<!--
-This README describes the package. If you publish this package to pub.dev,
-this README's contents appear on the landing page for your package.
+# Dart Basic Concepts Demonstration
 
-For information about how to write a good package README, see the guide for
-[writing package pages](https://dart.dev/tools/pub/writing-package-pages).
+**Author:** Mark Jayson D. Lanuzo  
+**Course & Section:** BSIT-3.1  
 
-For general information about developing packages, see the Dart guide for
-[creating packages](https://dart.dev/tools/pub/create-packages)
-and the Flutter guide for
-[developing packages and plugins](https://flutter.dev/to/develop-packages).
--->
+---
 
-TODO: Put a short description of the package here that helps potential users
-know whether this package might be useful for them.
+## Scenario
 
-## Features
+This project is a simple Dart program created to demonstrate basic programming concepts in Dart. It simulates basic arithmetic, comparison logic, control flow structures (combining `while` and `for` loops), and ternary operations using simple output statements. 
 
-TODO: List what your package can do. Maybe include images, gifs, or videos.
+### Features & Concepts Covered
+1. **Variables & String Interpolation:** Declaring integer variables (`year`, `yearIn10Years`) and formatting outputs with `$variable`.
+2. **Arithmetic Operations:** Performing addition (`year + 10`).
+3. **Boolean Expressions & Relational Operators:** Evaluating relational conditions (`10 > 20`).
+4. **Nested Control Flow:** 
+   - A `while` loop controlled by a flag (`exitNow`).
+   - A nested `for` loop executing a repeated print statement (`"Lala Lala!"`).
+5. **Ternary Operator:** Using conditional expressions (`condition ? trueExpr : falseExpr`) for direct evaluation and execution.
 
-## Getting started
+---
 
-TODO: List prerequisites and provide or point to information on how to
-start using the package.
+## Prerequisites
 
-## Usage
+Before running this program, ensure you have the following installed:
+- [Dart SDK](https://dart.dev/get-dart) installed on your machine.
 
-TODO: Include short and useful examples for package users. Add longer examples
-to `/example` folder.
+---
 
-```dart
-const like = 'sample';
+## How to Run the Program
+
+1. **Save the Code:**  
+   Save your Dart code in a file, for example: `main.dart`.
+
+2. **Open Terminal / Command Prompt:**  
+   Navigate to the directory where your `main.dart` file is located:
+   ```bash
+   cd path/to/your/file
+   ```
+
+3. **Run the Program:**  
+   Execute the Dart script using the Dart CLI:
+   ```bash
+   dart run main.dart
+   ```
+
+---
+
+## Expected Output
+
+When executed, the program will produce the following output:
+
+```text
+Year now 2026
+After 10 year now 2036
+Is 10 > 20: false
+Lala Lala!
+Lala Lala!
+Elmo's World!
+20 < 10 is false
 ```
-
-## Additional information
-
-TODO: Tell users more about the package: where to find more information, how to
-contribute to the package, how to file issues, what response they can expect
-from the package authors, and more.
